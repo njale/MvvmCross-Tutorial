@@ -7,7 +7,7 @@ namespace Day0.Droid
     [Activity(
         Label = "Day0.Droid"
         , MainLauncher = true
-        , Icon = "@mipmap/icon"
+        , Icon = "@drawable/icon"
         , Theme = "@style/Theme.Splash"
         , NoHistory = true
         , ScreenOrientation = ScreenOrientation.Portrait)]
