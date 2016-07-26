@@ -16,21 +16,31 @@ namespace Day0.IOS.Views
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UILabel Label { get; set; }
+        UIKit.UITextField FirstName { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UITextField TextField { get; set; }
+        UIKit.UILabel FullName { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField LastName { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (Label != null) {
-                Label.Dispose ();
-                Label = null;
+            if (FirstName != null) {
+                FirstName.Dispose ();
+                FirstName = null;
             }
-            if (TextField != null) {
-                TextField.Dispose ();
-                TextField = null;
+
+            if (FullName != null) {
+                FullName.Dispose ();
+                FullName = null;
+            }
+
+            if (LastName != null) {
+                LastName.Dispose ();
+                LastName = null;
             }
         }
     }

@@ -2,6 +2,7 @@ using System.Collections.Specialized;
 using System.Windows.Input;
 using MvvmCross.iOS.Views;
 using Foundation;
+using MvvmCross.Binding.BindingContext;
 using UIKit;
 
 namespace Day0.IOS
@@ -17,7 +18,7 @@ namespace Day0.IOS
             var c2 = new MvxTaskBasedBindingContext();
             c2.Dispose();
         }
-
+        
         public void Include(UIButton uiButton)
         {
             uiButton.TouchUpInside += (s, e) =>
@@ -113,11 +114,5 @@ namespace Day0.IOS
             changed.PropertyChanged += (sender, e) => { var test = e.PropertyName; };
         }
         
-        public void Include(MvxTaskBasedBindingContext context)
-        {
-            context.Dispose();
-            var context2 = new MvxTaskBasedBindingContext();
-            context2.Dispose();
-        }
     }
 }
