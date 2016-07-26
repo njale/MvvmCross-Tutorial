@@ -14,8 +14,9 @@ namespace Day0.IOS.Views
             base.ViewDidLoad();
 
             var set = this.CreateBindingSet<FirstView, Core.ViewModels.FirstViewModel>();
-            set.Bind(Label).To(vm => vm.Hello);
-            set.Bind(TextField).To(vm => vm.Hello);
+            set.Bind(FirstName).To(vm => vm.FirstName);
+            set.Bind(LastName).To(vm => vm.LastName);
+            set.Bind(FullName).To(vm => vm.FullName);
             set.Apply();
         }
     }
