@@ -23,6 +23,7 @@ namespace Day1.IOS.Views
             set.Bind(Total).To(vm => vm.Total);
             set.Apply();
 
+            // Remove popup keyboard from SubTotal edit if tapped in the view
             var gesture = new UITapGestureRecognizer(()=> SubTotal.ResignFirstResponder());
             View.AddGestureRecognizer(gesture);
         }
