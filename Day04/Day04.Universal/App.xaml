@@ -1,0 +1,17 @@
+﻿<Application
+    x:Class="Day04.Universal.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Day04.Universal"
+    xmlns:nativeConverters="using:Day04.Universal.NativeConverters"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <nativeConverters:NativeStringLengthValueConverter x:Key="StringLength"/>
+            <nativeConverters:NativeStringReverseValueConverter x:Key="StringReverse"/>
+            <nativeConverters:NativeSpecialValueConverter x:Key="Special"/>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
