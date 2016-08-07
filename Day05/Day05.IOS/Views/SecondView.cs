@@ -16,6 +16,7 @@ namespace Day05.IOS.Views
 
             var set = this.CreateBindingSet<SecondView, SecondViewModel>();
             set.Bind(Text1).To(vm => vm.Name);
+            set.Bind(Button1).To(vm => vm.GoThirdCommand);
             set.Apply();
         }
     }

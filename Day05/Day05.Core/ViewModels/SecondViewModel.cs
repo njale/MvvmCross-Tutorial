@@ -20,7 +20,7 @@ namespace Day05.Core.ViewModels
 
         private void DoGoThird()
         {
-            ShowViewModel<ThirdViewModel>(new {question = "What time is it?"});
+            ShowViewModel<ThirdViewModel>(new {question = "'What time is it?'"});
         }
     }
 }

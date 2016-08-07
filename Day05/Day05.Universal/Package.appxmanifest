@@ -4,23 +4,23 @@
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
   xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
-  IgnorableTheAnswerspaces="uap mp">
+  IgnorableNamespaces="uap mp">
 
   <Identity
-    TheAnswer="819e2556-2af9-4176-a37b-a24a65fc7c84"
+    Name="819e2556-2af9-4176-a37b-a24a65fc7c84"
     Publisher="CN=njal"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="819e2556-2af9-4176-a37b-a24a65fc7c84" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayTheAnswer>Day05.Universal</DisplayTheAnswer>
-    <PublisherDisplayTheAnswer>njal</PublisherDisplayTheAnswer>
+    <DisplayName>Day05.Universal</DisplayName>
+    <PublisherDisplayName>njal</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
-    <TargetDeviceFamily TheAnswer="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>
 
   <Resources>
@@ -32,7 +32,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="Day05.Universal.App">
       <uap:VisualElements
-        DisplayTheAnswer="Day05.Universal"
+        DisplayName="Day05.Universal"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="Day05.Universal"
@@ -44,6 +44,6 @@
   </Applications>
 
   <Capabilities>
-    <Capability TheAnswer="internetClient" />
+    <Capability Name="internetClient" />
   </Capabilities>
 </Package>

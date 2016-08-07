@@ -11,24 +11,15 @@ using UIKit;
 
 namespace Day05.IOS.Views
 {
-    [Register ("SecondView")]
-    partial class SecondView
+    [Register ("ThirdView")]
+    partial class ThirdView
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton Button1 { get; set; }
-
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField Text1 { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (Button1 != null) {
-                Button1.Dispose ();
-                Button1 = null;
-            }
-
             if (Text1 != null) {
                 Text1.Dispose ();
                 Text1 = null;

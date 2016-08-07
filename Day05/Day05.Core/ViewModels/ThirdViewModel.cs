@@ -6,7 +6,7 @@ namespace Day05.Core.ViewModels
     {
         public void Init(string question)
         {
-            TheAnswer = "I dont know" + question;
+            TheAnswer = "I dont know " + question;
         }
         private string _theAnswer = "Njål Eide";
         public string TheAnswer
