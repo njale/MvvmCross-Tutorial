@@ -1,0 +1,637 @@
+﻿<ViewModels:FirstViewModel xmlns:ViewModels="using:Day06.Core.ViewModels" xmlns:Model="using:Day06.Core.Model" xmlns:System="using:System" xmlns:ViewModels1="using:MvvmCross.Core.ViewModels" SearchTerm="Nam maecenas">
+	<ViewModels:FirstViewModel.Results>
+		<Model:BookSearchItem Etag="Aenean hac mauris duis" Id="Class accumsan dis est phasellus" Kind="Curabitur praesent sed cras" SelfLink="Nunc amet">
+			<Model:BookSearchItem.AccessInfo>
+				<Model:AccessInfo AccessViewStatus="Dapibus nostra neque nunc" Country="Quis tristique volutpat parturient vestibulum" Embeddable="True" PublicDomain="False" QuoteSharingAllowed="True" TextToSpeechPermission="Per cras metus" Viewability="Cubilia non montes urna vestibulum" WebReaderLink="Duis morbi">
+					<Model:AccessInfo.Epub>
+						<Model:Epub IsAvailable="True"/>
+					</Model:AccessInfo.Epub>
+					<Model:AccessInfo.Pdf>
+						<Model:Pdf IsAvailable="False"/>
+					</Model:AccessInfo.Pdf>
+				</Model:AccessInfo>
+			</Model:BookSearchItem.AccessInfo>
+			<Model:BookSearchItem.SaleInfo>
+				<Model:SaleInfo BuyLink="Mollis nec massa quam" Country="Odio blandit adipiscing" IsEbook="False" Saleability="Leo orci commodo conubia penatibus">
+					<Model:SaleInfo.ListPrice>
+						<Model:ListPrice Amount="100.3" CurrencyCode="Mauris ultrices mus pede"/>
+					</Model:SaleInfo.ListPrice>
+					<Model:SaleInfo.Offers>
+						<Model:Offer FinskyOfferType="64"/>
+						<Model:Offer FinskyOfferType="93"/>
+						<Model:Offer FinskyOfferType="30"/>
+						<Model:Offer FinskyOfferType="96"/>
+						<Model:Offer FinskyOfferType="12"/>
+					</Model:SaleInfo.Offers>
+					<Model:SaleInfo.RetailPrice>
+						<Model:RetailPrice Amount="690.79" CurrencyCode="Vehicula porttitor tincidunt"/>
+					</Model:SaleInfo.RetailPrice>
+				</Model:SaleInfo>
+			</Model:BookSearchItem.SaleInfo>
+			<Model:BookSearchItem.SearchInfo>
+				<Model:SearchInfo TextSnippet="Ultricies venenatis netus"/>
+			</Model:BookSearchItem.SearchInfo>
+			<Model:BookSearchItem.VolumeInfo>
+				<Model:VolumeInfo AllowAnonLogging="True" ContentVersion="Libero ligula felis imperdiet vestibulum" CanonicalVolumeLink="Magnis hac mattis malesuada torquent" Description="Quisque donec habitant" InfoLink="Suscipit est magna vestibulum luctus" Language="Lacus parturient vestibulum litora" MaturityRating="Senectus nunc" PageCount="40" Publisher="Per adipiscing parturient" PublishedDate="Curae dignissim" PreviewLink="Lorem dis" PrintType="Proin parturient" Title="Aliquam bibendum">
+					<Model:VolumeInfo.Authors>
+						<System:String>Consequat ante dictumst</System:String>
+						<System:String>Eleifend leo mus nullam</System:String>
+						<System:String>Aptent arcu</System:String>
+						<System:String>Convallis facilisi</System:String>
+						<System:String>Nec vestibulum non faucibus integer</System:String>
+					</Model:VolumeInfo.Authors>
+					<Model:VolumeInfo.Categories>
+						<System:String>Vel hendrerit erat</System:String>
+						<System:String>Placerat lectus pulvinar</System:String>
+						<System:String>Sagittis augue</System:String>
+						<System:String>Dolor aliquet eros himenaeos nibh</System:String>
+						<System:String>Fames nam nisi nisl</System:String>
+					</Model:VolumeInfo.Categories>
+					<Model:VolumeInfo.ImageLinks>
+						<Model:ImageLinks SmallThumbnail="Vestibulum sociosqu" Thumbnail="Adipiscing ipsum justo sed"/>
+					</Model:VolumeInfo.ImageLinks>
+					<Model:VolumeInfo.IndustryIdentifiers>
+						<Model:IndustryIdentifier Identifier="Etiam sed" Type="Elementum vestibulum"/>
+						<Model:IndustryIdentifier Identifier="Vivamus fusce aliquam interdum" Type="Inceptos auctor"/>
+						<Model:IndustryIdentifier Identifier="Facilisis lobortis nascetur pharetra eget" Type="Diam congue lorem vestibulum"/>
+						<Model:IndustryIdentifier Identifier="Sem adipiscing dictum morbi" Type="Fermentum cursus"/>
+						<Model:IndustryIdentifier Identifier="Enim habitasse" Type="Fringilla sit elit nulla"/>
+					</Model:VolumeInfo.IndustryIdentifiers>
+					<Model:VolumeInfo.ReadingModes>
+						<Model:ReadingModes Image="False" Text="True"/>
+					</Model:VolumeInfo.ReadingModes>
+				</Model:VolumeInfo>
+			</Model:BookSearchItem.VolumeInfo>
+		</Model:BookSearchItem>
+		<Model:BookSearchItem Etag="Ante sit platea vulputate" Id="Ornare nulla euismod" Kind="Amet sed egestas sem" SelfLink="Arcu feugiat curabitur primis">
+			<Model:BookSearchItem.AccessInfo>
+				<Model:AccessInfo AccessViewStatus="Vehicula augue vel" Country="Litora parturient" Embeddable="False" PublicDomain="True" QuoteSharingAllowed="False" TextToSpeechPermission="Nunc tincidunt sit mattis" Viewability="Luctus magnis" WebReaderLink="Tristique ultricies">
+					<Model:AccessInfo.Epub>
+						<Model:Epub IsAvailable="False"/>
+					</Model:AccessInfo.Epub>
+					<Model:AccessInfo.Pdf>
+						<Model:Pdf IsAvailable="True"/>
+					</Model:AccessInfo.Pdf>
+				</Model:AccessInfo>
+			</Model:BookSearchItem.AccessInfo>
+			<Model:BookSearchItem.SaleInfo>
+				<Model:SaleInfo BuyLink="Proin duis" Country="Sociosqu nulla" IsEbook="True" Saleability="Penatibus suscipit cras viverra libero">
+					<Model:SaleInfo.ListPrice>
+						<Model:ListPrice Amount="838.24" CurrencyCode="Adipiscing torquent"/>
+					</Model:SaleInfo.ListPrice>
+					<Model:SaleInfo.Offers>
+						<Model:Offer FinskyOfferType="25"/>
+						<Model:Offer FinskyOfferType="25"/>
+						<Model:Offer FinskyOfferType="57"/>
+						<Model:Offer FinskyOfferType="72"/>
+						<Model:Offer FinskyOfferType="98"/>
+					</Model:SaleInfo.Offers>
+					<Model:SaleInfo.RetailPrice>
+						<Model:RetailPrice Amount="748.74" CurrencyCode="Ultrices ligula porttitor"/>
+					</Model:SaleInfo.RetailPrice>
+				</Model:SaleInfo>
+			</Model:BookSearchItem.SaleInfo>
+			<Model:BookSearchItem.SearchInfo>
+				<Model:SearchInfo TextSnippet="Dolor fames vestibulum"/>
+			</Model:BookSearchItem.SearchInfo>
+			<Model:BookSearchItem.VolumeInfo>
+				<Model:VolumeInfo AllowAnonLogging="False" ContentVersion="Placerat fusce lorem auctor" CanonicalVolumeLink="Malesuada morbi rhoncus sodales" Description="Est dictumst" InfoLink="Senectus imperdiet pretium" Language="Himenaeos quam dictum quis" MaturityRating="Pede aptent" PageCount="26" Publisher="Parturient elit accumsan vestibulum" PublishedDate="Vestibulum adipiscing bibendum tempus" PreviewLink="Lectus sagittis urna" PrintType="Aenean mus" Title="Gravida vel">
+					<Model:VolumeInfo.Authors>
+						<System:String>Rutrum nam diam</System:String>
+						<System:String>Sapien phasellus semper</System:String>
+						<System:String>Iaculis consequat sed sociis eget</System:String>
+						<System:String>Porta dis convallis taciti tellus</System:String>
+						<System:String>Adipiscing maecenas praesent tempor</System:String>
+					</Model:VolumeInfo.Authors>
+					<Model:VolumeInfo.Categories>
+						<System:String>Nec mauris fermentum nisl lobortis</System:String>
+						<System:String>Nascetur vestibulum nullam</System:String>
+						<System:String>Nunc etiam pharetra fringilla habitasse</System:String>
+						<System:String>Natoque odio</System:String>
+						<System:String>Non per sed orci sem</System:String>
+					</Model:VolumeInfo.Categories>
+					<Model:VolumeInfo.ImageLinks>
+						<Model:ImageLinks SmallThumbnail="Congue posuere cursus" Thumbnail="Pulvinar hendrerit potenti vestibulum"/>
+					</Model:VolumeInfo.ImageLinks>
+					<Model:VolumeInfo.IndustryIdentifiers>
+						<Model:IndustryIdentifier Identifier="Facilisi faucibus vestibulum" Type="Tortor enim parturient purus eleifend"/>
+						<Model:IndustryIdentifier Identifier="Hac erat turpis vestibulum velit" Type="Risus lacinia"/>
+						<Model:IndustryIdentifier Identifier="Vitae elementum habitant" Type="Dignissim adipiscing laoreet"/>
+						<Model:IndustryIdentifier Identifier="Curae donec" Type="Eros inceptos nibh leo class"/>
+						<Model:IndustryIdentifier Identifier="Facilisis nisi interdum" Type="Varius parturient"/>
+					</Model:VolumeInfo.IndustryIdentifiers>
+					<Model:VolumeInfo.ReadingModes>
+						<Model:ReadingModes Image="True" Text="False"/>
+					</Model:VolumeInfo.ReadingModes>
+				</Model:VolumeInfo>
+			</Model:BookSearchItem.VolumeInfo>
+		</Model:BookSearchItem>
+		<Model:BookSearchItem Etag="Volutpat vestibulum integer adipiscing mauris" Id="Parturient vulputate felis aliquam vestibulum" Kind="Vestibulum adipiscing venenatis" SelfLink="Maecenas praesent quisque ipsum parturient">
+			<Model:BookSearchItem.AccessInfo>
+				<Model:AccessInfo AccessViewStatus="Urna venenatis nec sagittis" Country="Auctor vestibulum pede" Embeddable="True" PublicDomain="False" QuoteSharingAllowed="True" TextToSpeechPermission="Pulvinar quam" Viewability="Laoreet ultricies" WebReaderLink="Quis congue natoque netus vestibulum">
+					<Model:AccessInfo.Epub>
+						<Model:Epub IsAvailable="True"/>
+					</Model:AccessInfo.Epub>
+					<Model:AccessInfo.Pdf>
+						<Model:Pdf IsAvailable="False"/>
+					</Model:AccessInfo.Pdf>
+				</Model:AccessInfo>
+			</Model:BookSearchItem.AccessInfo>
+			<Model:BookSearchItem.SaleInfo>
+				<Model:SaleInfo BuyLink="Tristique parturient" Country="Nullam leo iaculis nunc" IsEbook="False" Saleability="Mus nascetur parturient odio vestibulum">
+					<Model:SaleInfo.ListPrice>
+						<Model:ListPrice Amount="210.65" CurrencyCode="Aptent pharetra vestibulum orci tincidunt"/>
+					</Model:SaleInfo.ListPrice>
+					<Model:SaleInfo.Offers>
+						<Model:Offer FinskyOfferType="80"/>
+						<Model:Offer FinskyOfferType="35"/>
+						<Model:Offer FinskyOfferType="85"/>
+						<Model:Offer FinskyOfferType="36"/>
+						<Model:Offer FinskyOfferType="25"/>
+					</Model:SaleInfo.Offers>
+					<Model:SaleInfo.RetailPrice>
+						<Model:RetailPrice Amount="233.16" CurrencyCode="Placerat adipiscing lacinia"/>
+					</Model:SaleInfo.RetailPrice>
+				</Model:SaleInfo>
+			</Model:BookSearchItem.SaleInfo>
+			<Model:BookSearchItem.SearchInfo>
+				<Model:SearchInfo TextSnippet="Cras posuere adipiscing duis cursus"/>
+			</Model:BookSearchItem.SearchInfo>
+			<Model:BookSearchItem.VolumeInfo>
+				<Model:VolumeInfo AllowAnonLogging="True" ContentVersion="Vel turpis malesuada nibh" CanonicalVolumeLink="Lobortis porttitor" Description="Eget mus nec" InfoLink="Gravida adipiscing" Language="Est hac aenean" MaturityRating="Vestibulum tortor" PageCount="26" Publisher="Platea ante primis rutrum elementum" PublishedDate="Arcu diam hac adipiscing leo" PreviewLink="Mauris penatibus inceptos interdum" PrintType="Tellus hendrerit vestibulum himenaeos tempor" Title="Justo curabitur nam lacus">
+					<Model:VolumeInfo.Authors>
+						<System:String>Sed phasellus mollis amet montes</System:String>
+						<System:String>Vestibulum dis consequat</System:String>
+						<System:String>Vivamus est aliquam</System:String>
+						<System:String>Convallis dignissim</System:String>
+						<System:String>Nostra vestibulum ornare</System:String>
+					</Model:VolumeInfo.Authors>
+					<Model:VolumeInfo.Categories>
+						<System:String>Sed vestibulum adipiscing eros</System:String>
+						<System:String>Egestas sem</System:String>
+						<System:String>Sit imperdiet tempus parturient</System:String>
+						<System:String>Euismod vestibulum facilisi feugiat faucibus</System:String>
+						<System:String>Massa metus</System:String>
+					</Model:VolumeInfo.Categories>
+					<Model:VolumeInfo.ImageLinks>
+						<Model:ImageLinks SmallThumbnail="Morbi nisi nam nisl" Thumbnail="Sed neque varius habitant dis"/>
+					</Model:VolumeInfo.ImageLinks>
+					<Model:VolumeInfo.IndustryIdentifiers>
+						<Model:IndustryIdentifier Identifier="Facilisis accumsan" Type="Non per aliquet"/>
+						<Model:IndustryIdentifier Identifier="Fermentum commodo" Type="Parturient vestibulum sapien blandit"/>
+						<Model:IndustryIdentifier Identifier="Conubia sociis bibendum fringilla elit" Type="Vestibulum adipiscing semper"/>
+						<Model:IndustryIdentifier Identifier="Enim lorem dapibus" Type="Dictumst parturient cubilia"/>
+						<Model:IndustryIdentifier Identifier="Eleifend magna erat" Type="Taciti habitasse"/>
+					</Model:VolumeInfo.IndustryIdentifiers>
+					<Model:VolumeInfo.ReadingModes>
+						<Model:ReadingModes Image="False" Text="True"/>
+					</Model:VolumeInfo.ReadingModes>
+				</Model:VolumeInfo>
+			</Model:BookSearchItem.VolumeInfo>
+		</Model:BookSearchItem>
+		<Model:BookSearchItem Etag="Sociosqu per" Id="Non nunc senectus amet" Kind="Dictum nulla vulputate potenti porta" SelfLink="Suscipit parturient purus">
+			<Model:BookSearchItem.AccessInfo>
+				<Model:AccessInfo AccessViewStatus="Tempor urna ipsum" Country="Dolor semper fames dapibus sociis" Embeddable="False" PublicDomain="True" QuoteSharingAllowed="False" TextToSpeechPermission="Taciti quis pharetra" Viewability="Egestas felis" WebReaderLink="Tellus euismod">
+					<Model:AccessInfo.Epub>
+						<Model:Epub IsAvailable="False"/>
+					</Model:AccessInfo.Epub>
+					<Model:AccessInfo.Pdf>
+						<Model:Pdf IsAvailable="True"/>
+					</Model:AccessInfo.Pdf>
+				</Model:AccessInfo>
+			</Model:BookSearchItem.AccessInfo>
+			<Model:BookSearchItem.SaleInfo>
+				<Model:SaleInfo BuyLink="Sed quam vestibulum cubilia" Country="Pede augue" IsEbook="True" Saleability="Vestibulum adipiscing lobortis">
+					<Model:SaleInfo.ListPrice>
+						<Model:ListPrice Amount="390.07" CurrencyCode="Non rutrum imperdiet per parturient"/>
+					</Model:SaleInfo.ListPrice>
+					<Model:SaleInfo.Offers>
+						<Model:Offer FinskyOfferType="22"/>
+						<Model:Offer FinskyOfferType="35"/>
+						<Model:Offer FinskyOfferType="95"/>
+						<Model:Offer FinskyOfferType="53"/>
+						<Model:Offer FinskyOfferType="63"/>
+					</Model:SaleInfo.Offers>
+					<Model:SaleInfo.RetailPrice>
+						<Model:RetailPrice Amount="719.29" CurrencyCode="Vestibulum sapien nascetur"/>
+					</Model:SaleInfo.RetailPrice>
+				</Model:SaleInfo>
+			</Model:BookSearchItem.SaleInfo>
+			<Model:BookSearchItem.SearchInfo>
+				<Model:SearchInfo TextSnippet="Feugiat cras"/>
+			</Model:BookSearchItem.SearchInfo>
+			<Model:BookSearchItem.VolumeInfo>
+				<Model:VolumeInfo AllowAnonLogging="False" ContentVersion="Mus faucibus habitant fringilla" CanonicalVolumeLink="Conubia primis" Description="Sit luctus vivamus" InfoLink="Interdum hendrerit himenaeos" Language="Proin odio platea commodo" MaturityRating="Hac leo" PageCount="49" Publisher="Litora torquent ultrices" PublishedDate="Quisque sem vehicula velit" PreviewLink="Orci nec" PrintType="Mollis fusce elementum" Title="Curabitur risus">
+					<Model:VolumeInfo.Authors>
+						<System:String>Pretium phasellus lectus vestibulum libero</System:String>
+						<System:String>Rhoncus sodales</System:String>
+						<System:String>Viverra aliquam</System:String>
+						<System:String>Integer ante arcu</System:String>
+						<System:String>Sed ligula</System:String>
+					</Model:VolumeInfo.Authors>
+					<Model:VolumeInfo.Categories>
+						<System:String>Est adipiscing nibh facilisis</System:String>
+						<System:String>Lorem montes</System:String>
+						<System:String>Nostra bibendum</System:String>
+						<System:String>Fermentum dictumst eleifend</System:String>
+						<System:String>Facilisi morbi aliquet blandit nisi</System:String>
+					</Model:VolumeInfo.Categories>
+					<Model:VolumeInfo.ImageLinks>
+						<Model:ImageLinks SmallThumbnail="Parturient inceptos ornare vestibulum nisl" Thumbnail="Habitasse nunc nulla"/>
+					</Model:VolumeInfo.ImageLinks>
+					<Model:VolumeInfo.IndustryIdentifiers>
+						<Model:IndustryIdentifier Identifier="Consequat diam" Type="Vestibulum aliquam vitae"/>
+						<Model:IndustryIdentifier Identifier="Volutpat convallis mattis enim adipiscing" Type="Eget elit magnis class curae"/>
+						<Model:IndustryIdentifier Identifier="Vestibulum dignissim" Type="Parturient maecenas erat"/>
+						<Model:IndustryIdentifier Identifier="Praesent accumsan donec etiam" Type="Vestibulum vel"/>
+						<Model:IndustryIdentifier Identifier="Eros sed dis" Type="Nam mauris"/>
+					</Model:VolumeInfo.IndustryIdentifiers>
+					<Model:VolumeInfo.ReadingModes>
+						<Model:ReadingModes Image="True" Text="False"/>
+					</Model:VolumeInfo.ReadingModes>
+				</Model:VolumeInfo>
+			</Model:BookSearchItem.VolumeInfo>
+		</Model:BookSearchItem>
+		<Model:BookSearchItem Etag="Duis justo tempus" Id="Penatibus pulvinar parturient" Kind="Gravida iaculis adipiscing placerat malesuada" SelfLink="Porttitor sagittis tortor vestibulum sem">
+			<Model:BookSearchItem.AccessInfo>
+				<Model:AccessInfo AccessViewStatus="Donec cras euismod parturient etiam" Country="Sem sagittis urna" Embeddable="True" PublicDomain="False" QuoteSharingAllowed="True" TextToSpeechPermission="Sociosqu suscipit torquent" Viewability="Adipiscing senectus facilisis" WebReaderLink="Fermentum sit ultrices">
+					<Model:AccessInfo.Epub>
+						<Model:Epub IsAvailable="True"/>
+					</Model:AccessInfo.Epub>
+					<Model:AccessInfo.Pdf>
+						<Model:Pdf IsAvailable="False"/>
+					</Model:AccessInfo.Pdf>
+				</Model:AccessInfo>
+			</Model:BookSearchItem.AccessInfo>
+			<Model:BookSearchItem.SaleInfo>
+				<Model:SaleInfo BuyLink="Curae elementum" Country="Velit mattis quam parturient" IsEbook="False" Saleability="Vitae mauris">
+					<Model:SaleInfo.ListPrice>
+						<Model:ListPrice Amount="136.16" CurrencyCode="Vestibulum class egestas vestibulum"/>
+					</Model:SaleInfo.ListPrice>
+					<Model:SaleInfo.Offers>
+						<Model:Offer FinskyOfferType="93"/>
+						<Model:Offer FinskyOfferType="49"/>
+						<Model:Offer FinskyOfferType="83"/>
+						<Model:Offer FinskyOfferType="94"/>
+						<Model:Offer FinskyOfferType="12"/>
+					</Model:SaleInfo.Offers>
+					<Model:SaleInfo.RetailPrice>
+						<Model:RetailPrice Amount="200.22" CurrencyCode="Sed quis"/>
+					</Model:SaleInfo.RetailPrice>
+				</Model:SaleInfo>
+			</Model:BookSearchItem.SaleInfo>
+			<Model:BookSearchItem.SearchInfo>
+				<Model:SearchInfo TextSnippet="Feugiat duis fusce lorem gravida"/>
+			</Model:BookSearchItem.SearchInfo>
+			<Model:BookSearchItem.VolumeInfo>
+				<Model:VolumeInfo AllowAnonLogging="True" ContentVersion="Lectus porta pharetra libero aliquet" CanonicalVolumeLink="Cubilia adipiscing magnis dapibus per" Description="Mauris nullam morbi praesent vestibulum" InfoLink="Non conubia vestibulum" Language="Risus litora luctus blandit vestibulum" MaturityRating="Nunc aliquam odio" PageCount="39" Publisher="Potenti vehicula pretium volutpat metus" PublishedDate="Nunc parturient maecenas rhoncus amet" PreviewLink="Commodo pulvinar pede dignissim" PrintType="Habitant est inceptos phasellus" Title="Sit lacinia lacus lorem">
+					<Model:VolumeInfo.Authors>
+						<System:String>Tincidunt senectus sociosqu laoreet</System:String>
+						<System:String>Turpis varius magna</System:String>
+						<System:String>Vel massa natoque suscipit torquent</System:String>
+						<System:String>Vestibulum aenean</System:String>
+						<System:String>Posuere ultrices nam adipiscing</System:String>
+					</Model:VolumeInfo.Authors>
+					<Model:VolumeInfo.Categories>
+						<System:String>Quisque interdum hac eros vestibulum</System:String>
+						<System:String>Adipiscing lobortis vivamus</System:String>
+						<System:String>Leo consequat netus nibh</System:String>
+						<System:String>Nisi nulla</System:String>
+						<System:String>Nisl nascetur</System:String>
+					</Model:VolumeInfo.Categories>
+					<Model:VolumeInfo.ImageLinks>
+						<Model:ImageLinks SmallThumbnail="Purus parturient convallis" Thumbnail="Ligula placerat mus orci nec"/>
+					</Model:VolumeInfo.ImageLinks>
+					<Model:VolumeInfo.IndustryIdentifiers>
+						<Model:IndustryIdentifier Identifier="Auctor arcu congue" Type="Ante aptent tristique ultricies"/>
+						<Model:IndustryIdentifier Identifier="Accumsan viverra bibendum venenatis" Type="Cursus sodales"/>
+						<Model:IndustryIdentifier Identifier="Neque sed" Type="Vulputate diam vestibulum"/>
+						<Model:IndustryIdentifier Identifier="Dictum aliquam facilisi" Type="Eget dis dictumst eleifend elit"/>
+						<Model:IndustryIdentifier Identifier="Parturient erat vestibulum faucibus" Type="Curabitur adipiscing enim integer"/>
+					</Model:VolumeInfo.IndustryIdentifiers>
+					<Model:VolumeInfo.ReadingModes>
+						<Model:ReadingModes Image="False" Text="True"/>
+					</Model:VolumeInfo.ReadingModes>
+				</Model:VolumeInfo>
+			</Model:BookSearchItem.VolumeInfo>
+		</Model:BookSearchItem>
+		<Model:BookSearchItem Etag="Morbi vehicula volutpat" Id="Vel nam iaculis amet" Kind="Vestibulum nunc" SelfLink="Vestibulum lacinia">
+			<Model:BookSearchItem.AccessInfo>
+				<Model:AccessInfo AccessViewStatus="Elementum mus nec vestibulum" Country="Pulvinar massa mauris vestibulum" Embeddable="False" PublicDomain="True" QuoteSharingAllowed="False" TextToSpeechPermission="Adipiscing nunc euismod odio" Viewability="Egestas sagittis" WebReaderLink="Parturient feugiat leo dignissim senectus">
+					<Model:AccessInfo.Epub>
+						<Model:Epub IsAvailable="False"/>
+					</Model:AccessInfo.Epub>
+					<Model:AccessInfo.Pdf>
+						<Model:Pdf IsAvailable="True"/>
+					</Model:AccessInfo.Pdf>
+				</Model:AccessInfo>
+			</Model:BookSearchItem.AccessInfo>
+			<Model:BookSearchItem.SaleInfo>
+				<Model:SaleInfo BuyLink="Cubilia hac dapibus" Country="Placerat vestibulum aenean dis aliquet" IsEbook="True" Saleability="Blandit nisi">
+					<Model:SaleInfo.ListPrice>
+						<Model:ListPrice Amount="869.1" CurrencyCode="Est nisl commodo"/>
+					</Model:SaleInfo.ListPrice>
+					<Model:SaleInfo.Offers>
+						<Model:Offer FinskyOfferType="16"/>
+						<Model:Offer FinskyOfferType="27"/>
+						<Model:Offer FinskyOfferType="52"/>
+						<Model:Offer FinskyOfferType="26"/>
+						<Model:Offer FinskyOfferType="80"/>
+					</Model:SaleInfo.Offers>
+					<Model:SaleInfo.RetailPrice>
+						<Model:RetailPrice Amount="506.46" CurrencyCode="Convallis conubia"/>
+					</Model:SaleInfo.RetailPrice>
+				</Model:SaleInfo>
+			</Model:BookSearchItem.SaleInfo>
+			<Model:BookSearchItem.SearchInfo>
+				<Model:SearchInfo TextSnippet="Facilisis gravida non vestibulum fermentum"/>
+			</Model:BookSearchItem.SearchInfo>
+			<Model:BookSearchItem.VolumeInfo>
+				<Model:VolumeInfo AllowAnonLogging="False" ContentVersion="Ultricies tempus venenatis" CanonicalVolumeLink="Nibh phasellus parturient consequat magna" Description="Platea primis" InfoLink="Nascetur adipiscing curabitur pharetra" Language="Nam varius lorem parturient" MaturityRating="Lacus interdum tempor" PageCount="55" Publisher="Adipiscing rhoncus ornare imperdiet est" PublishedDate="Parturient accumsan proin" PreviewLink="Vestibulum vestibulum aliquam sed eros" PrintType="Taciti sit" Title="Ante laoreet">
+					<Model:VolumeInfo.Authors>
+						<System:String>Arcu nulla sed</System:String>
+						<System:String>Maecenas fringilla mollis natoque habitasse</System:String>
+						<System:String>Montes hendrerit</System:String>
+						<System:String>Posuere diam himenaeos praesent</System:String>
+						<System:String>Potenti pretium nostra dis</System:String>
+					</Model:VolumeInfo.Authors>
+					<Model:VolumeInfo.Categories>
+						<System:String>Eget tincidunt</System:String>
+						<System:String>Ipsum inceptos tellus</System:String>
+						<System:String>Vel elit justo vestibulum</System:String>
+						<System:String>Enim aliquam integer</System:String>
+						<System:String>Vestibulum tristique quisque</System:String>
+					</Model:VolumeInfo.Categories>
+					<Model:VolumeInfo.ImageLinks>
+						<Model:ImageLinks SmallThumbnail="Lobortis adipiscing vulputate erat" Thumbnail="Tortor turpis vivamus"/>
+					</Model:VolumeInfo.ImageLinks>
+					<Model:VolumeInfo.IndustryIdentifiers>
+						<Model:IndustryIdentifier Identifier="Nec non bibendum rutrum" Type="Hac leo mus"/>
+						<Model:IndustryIdentifier Identifier="Eleifend malesuada sodales semper sociis" Type="Dictumst augue vestibulum sapien vestibulum"/>
+						<Model:IndustryIdentifier Identifier="Per dolor" Type="Penatibus porttitor viverra facilisi"/>
+						<Model:IndustryIdentifier Identifier="Habitant sed" Type="Adipiscing faucibus"/>
+						<Model:IndustryIdentifier Identifier="Sem parturient" Type="Fames felis"/>
+					</Model:VolumeInfo.IndustryIdentifiers>
+					<Model:VolumeInfo.ReadingModes>
+						<Model:ReadingModes Image="True" Text="False"/>
+					</Model:VolumeInfo.ReadingModes>
+				</Model:VolumeInfo>
+			</Model:BookSearchItem.VolumeInfo>
+		</Model:BookSearchItem>
+		<Model:BookSearchItem Etag="Pede parturient quam sed" Id="Habitasse per orci suscipit" Kind="Sociosqu fringilla adipiscing" SelfLink="Hendrerit metus vestibulum quis">
+			<Model:BookSearchItem.AccessInfo>
+				<Model:AccessInfo AccessViewStatus="Ipsum varius aenean adipiscing" Country="Sagittis senectus parturient conubia tortor" Embeddable="True" PublicDomain="False" QuoteSharingAllowed="True" TextToSpeechPermission="Sociosqu suscipit vestibulum odio turpis" Viewability="Sed fringilla nunc vestibulum" WebReaderLink="Torquent felis orci">
+					<Model:AccessInfo.Epub>
+						<Model:Epub IsAvailable="True"/>
+					</Model:AccessInfo.Epub>
+					<Model:AccessInfo.Pdf>
+						<Model:Pdf IsAvailable="False"/>
+					</Model:AccessInfo.Pdf>
+				</Model:AccessInfo>
+			</Model:BookSearchItem.AccessInfo>
+			<Model:BookSearchItem.SaleInfo>
+				<Model:SaleInfo BuyLink="Augue dolor fames adipiscing" Country="Dignissim nascetur aliquet pharetra elementum" IsEbook="False" Saleability="Parturient blandit tempus">
+					<Model:SaleInfo.ListPrice>
+						<Model:ListPrice Amount="100.46" CurrencyCode="Vestibulum per placerat pulvinar"/>
+					</Model:SaleInfo.ListPrice>
+					<Model:SaleInfo.Offers>
+						<Model:Offer FinskyOfferType="19"/>
+						<Model:Offer FinskyOfferType="23"/>
+						<Model:Offer FinskyOfferType="89"/>
+						<Model:Offer FinskyOfferType="29"/>
+						<Model:Offer FinskyOfferType="40"/>
+					</Model:SaleInfo.Offers>
+					<Model:SaleInfo.RetailPrice>
+						<Model:RetailPrice Amount="484.1" CurrencyCode="Facilisis vestibulum commodo fermentum proin"/>
+					</Model:SaleInfo.RetailPrice>
+				</Model:SaleInfo>
+			</Model:BookSearchItem.SaleInfo>
+			<Model:BookSearchItem.SearchInfo>
+				<Model:SearchInfo TextSnippet="Habitasse ultrices hendrerit mauris"/>
+			</Model:BookSearchItem.SearchInfo>
+			<Model:BookSearchItem.VolumeInfo>
+				<Model:VolumeInfo AllowAnonLogging="True" ContentVersion="Interdum integer primis" CanonicalVolumeLink="Nisi nisl tempor aliquam nulla" Description="Porttitor dictum nam tincidunt" InfoLink="Eros nibh taciti tellus morbi" Language="Semper vestibulum vestibulum non lorem" MaturityRating="Platea aliquam" PageCount="25" Publisher="Volutpat urna cras congue cursus" PublishedDate="Penatibus maecenas adipiscing praesent" PreviewLink="Adipiscing sociis convallis lobortis vivamus" PrintType="Velit diam" Title="Iaculis torquent ultrices">
+					<Model:VolumeInfo.Authors>
+						<System:String>Himenaeos vestibulum lacinia sem sit</System:String>
+						<System:String>Morbi nullam vehicula imperdiet</System:String>
+						<System:String>Aptent laoreet</System:String>
+						<System:String>Neque vel natoque auctor</System:String>
+						<System:String>Posuere netus malesuada</System:String>
+					</Model:VolumeInfo.Authors>
+					<Model:VolumeInfo.Categories>
+						<System:String>Hac mauris vitae</System:String>
+						<System:String>Mollis habitant leo mus vulputate</System:String>
+						<System:String>Curabitur eget class curae nec</System:String>
+						<System:String>Phasellus donec montes inceptos</System:String>
+						<System:String>Etiam nostra ornare</System:String>
+					</Model:VolumeInfo.Categories>
+					<Model:VolumeInfo.ImageLinks>
+						<Model:ImageLinks SmallThumbnail="Elit quisque enim" Thumbnail="Consequat erat rutrum sapien fusce"/>
+					</Model:VolumeInfo.ImageLinks>
+					<Model:VolumeInfo.IndustryIdentifiers>
+						<Model:IndustryIdentifier Identifier="Duis dis nunc potenti accumsan" Type="Nulla sed parturient"/>
+						<Model:IndustryIdentifier Identifier="Risus amet" Type="Bibendum porta purus"/>
+						<Model:IndustryIdentifier Identifier="Lectus libero eleifend facilisi ligula" Type="Pretium dictumst est"/>
+						<Model:IndustryIdentifier Identifier="Luctus magnis ultricies" Type="Tristique rhoncus litora"/>
+						<Model:IndustryIdentifier Identifier="Sodales viverra arcu venenatis faucibus" Type="Mattis ante"/>
+					</Model:VolumeInfo.IndustryIdentifiers>
+					<Model:VolumeInfo.ReadingModes>
+						<Model:ReadingModes Image="False" Text="True"/>
+					</Model:VolumeInfo.ReadingModes>
+				</Model:VolumeInfo>
+			</Model:BookSearchItem.VolumeInfo>
+		</Model:BookSearchItem>
+		<Model:BookSearchItem Etag="Pede lacus quam vestibulum vehicula" Id="Parturient imperdiet sem" Kind="Justo nullam himenaeos cubilia" SelfLink="Quis aptent vestibulum">
+			<Model:BookSearchItem.AccessInfo>
+				<Model:AccessInfo AccessViewStatus="Etiam fusce porttitor lorem" Country="Nisi adipiscing nisl suscipit curae" Embeddable="False" PublicDomain="True" QuoteSharingAllowed="False" TextToSpeechPermission="Sodales viverra aliquam parturient" Viewability="Malesuada donec montes" WebReaderLink="Penatibus torquent nostra nunc vestibulum">
+					<Model:AccessInfo.Epub>
+						<Model:Epub IsAvailable="False"/>
+					</Model:AccessInfo.Epub>
+					<Model:AccessInfo.Pdf>
+						<Model:Pdf IsAvailable="True"/>
+					</Model:AccessInfo.Pdf>
+				</Model:AccessInfo>
+			</Model:BookSearchItem.AccessInfo>
+			<Model:BookSearchItem.SaleInfo>
+				<Model:SaleInfo BuyLink="Vitae imperdiet nibh sociosqu class" Country="Velit vel" IsEbook="True" Saleability="Fringilla nam habitasse hendrerit">
+					<Model:SaleInfo.ListPrice>
+						<Model:ListPrice Amount="260.23" CurrencyCode="Himenaeos senectus rhoncus erat mattis"/>
+					</Model:SaleInfo.ListPrice>
+					<Model:SaleInfo.Offers>
+						<Model:Offer FinskyOfferType="10"/>
+						<Model:Offer FinskyOfferType="27"/>
+						<Model:Offer FinskyOfferType="28"/>
+						<Model:Offer FinskyOfferType="66"/>
+						<Model:Offer FinskyOfferType="67"/>
+					</Model:SaleInfo.Offers>
+					<Model:SaleInfo.RetailPrice>
+						<Model:RetailPrice Amount="289.37" CurrencyCode="Sed eros mauris mollis"/>
+					</Model:SaleInfo.RetailPrice>
+				</Model:SaleInfo>
+			</Model:BookSearchItem.SaleInfo>
+			<Model:BookSearchItem.SearchInfo>
+				<Model:SearchInfo TextSnippet="Dis odio est orci vestibulum"/>
+			</Model:BookSearchItem.SearchInfo>
+			<Model:BookSearchItem.VolumeInfo>
+				<Model:VolumeInfo AllowAnonLogging="False" ContentVersion="Elit nascetur" CanonicalVolumeLink="Fermentum risus" Description="Feugiat tristique adipiscing magna maecenas" InfoLink="Facilisis sagittis" Language="Placerat purus" MaturityRating="Consequat magnis" PageCount="68" Publisher="Euismod vestibulum" PublishedDate="Volutpat mus tincidunt" PreviewLink="Pulvinar pretium" PrintType="Ligula litora vestibulum" Title="Malesuada lorem sit auctor vel">
+					<Model:VolumeInfo.Authors>
+						<System:String>Penatibus dapibus</System:String>
+						<System:String>Egestas adipiscing congue</System:String>
+						<System:String>Nam sed</System:String>
+						<System:String>Parturient vestibulum dis porttitor est</System:String>
+						<System:String>Urna hac leo</System:String>
+					</Model:VolumeInfo.Authors>
+					<Model:VolumeInfo.Categories>
+						<System:String>Habitant luctus</System:String>
+						<System:String>Neque netus posuere</System:String>
+						<System:String>Per inceptos eget</System:String>
+						<System:String>Sed nulla potenti interdum sem</System:String>
+						<System:String>Lobortis porta</System:String>
+					</Model:VolumeInfo.Categories>
+					<Model:VolumeInfo.ImageLinks>
+						<Model:ImageLinks SmallThumbnail="Sit convallis dignissim enim pharetra" Thumbnail="Vestibulum elementum"/>
+					</Model:VolumeInfo.ImageLinks>
+					<Model:VolumeInfo.IndustryIdentifiers>
+						<Model:IndustryIdentifier Identifier="Ultricies gravida iaculis accumsan venenatis" Type="Praesent parturient"/>
+						<Model:IndustryIdentifier Identifier="Vestibulum vestibulum" Type="Massa bibendum dictumst eleifend"/>
+						<Model:IndustryIdentifier Identifier="Duis nunc metus adipiscing cursus" Type="Nec vulputate curabitur cras"/>
+						<Model:IndustryIdentifier Identifier="Parturient laoreet natoque" Type="Amet dictum lectus phasellus lacinia"/>
+						<Model:IndustryIdentifier Identifier="Diam morbi libero" Type="Non facilisi ante arcu faucibus"/>
+					</Model:VolumeInfo.IndustryIdentifiers>
+					<Model:VolumeInfo.ReadingModes>
+						<Model:ReadingModes Image="True" Text="False"/>
+					</Model:VolumeInfo.ReadingModes>
+				</Model:VolumeInfo>
+			</Model:BookSearchItem.VolumeInfo>
+		</Model:BookSearchItem>
+		<Model:BookSearchItem Etag="Pede proin tristique leo" Id="Quisque hac ornare" Kind="Integer morbi tincidunt nulla ultrices" SelfLink="Vehicula mus vivamus">
+			<Model:BookSearchItem.AccessInfo>
+				<Model:AccessInfo AccessViewStatus="Adipiscing parturient vestibulum" Country="Pulvinar parturient" Embeddable="True" PublicDomain="False" QuoteSharingAllowed="True" TextToSpeechPermission="Nulla integer sit vel quisque" Viewability="Sem vestibulum aliquam" WebReaderLink="Vestibulum vivamus">
+					<Model:AccessInfo.Epub>
+						<Model:Epub IsAvailable="True"/>
+					</Model:AccessInfo.Epub>
+					<Model:AccessInfo.Pdf>
+						<Model:Pdf IsAvailable="False"/>
+					</Model:AccessInfo.Pdf>
+				</Model:AccessInfo>
+			</Model:BookSearchItem.AccessInfo>
+			<Model:BookSearchItem.SaleInfo>
+				<Model:SaleInfo BuyLink="Auctor adipiscing congue" Country="Morbi non nascetur vestibulum" IsEbook="False" Saleability="Tincidunt pharetra per">
+					<Model:SaleInfo.ListPrice>
+						<Model:ListPrice Amount="311.31" CurrencyCode="Aptent neque sed"/>
+					</Model:SaleInfo.ListPrice>
+					<Model:SaleInfo.Offers>
+						<Model:Offer FinskyOfferType="63"/>
+						<Model:Offer FinskyOfferType="60"/>
+						<Model:Offer FinskyOfferType="42"/>
+						<Model:Offer FinskyOfferType="67"/>
+						<Model:Offer FinskyOfferType="82"/>
+					</Model:SaleInfo.Offers>
+					<Model:SaleInfo.RetailPrice>
+						<Model:RetailPrice Amount="563.72" CurrencyCode="Eros netus nibh placerat viverra"/>
+					</Model:SaleInfo.RetailPrice>
+				</Model:SaleInfo>
+			</Model:BookSearchItem.SaleInfo>
+			<Model:BookSearchItem.SearchInfo>
+				<Model:SearchInfo TextSnippet="Tristique vestibulum"/>
+			</Model:BookSearchItem.SearchInfo>
+			<Model:BookSearchItem.VolumeInfo>
+				<Model:VolumeInfo AllowAnonLogging="True" ContentVersion="Vestibulum vestibulum est magna faucibus" CanonicalVolumeLink="Metus nullam nec lobortis" Description="Sociis curabitur maecenas fames" InfoLink="Porttitor sodales mauris mus" Language="Penatibus habitant inceptos interdum" MaturityRating="Parturient imperdiet" PageCount="75" Publisher="Sit vulputate" PublishedDate="Semper cubilia vel" PreviewLink="Parturient aenean rhoncus erat vestibulum" PrintType="Fermentum fringilla" Title="Platea quam nec aliquam">
+					<Model:VolumeInfo.Authors>
+						<System:String>Aliquet quis blandit non augue</System:String>
+						<System:String>Primis rutrum</System:String>
+						<System:String>Adipiscing ultricies per sed</System:String>
+						<System:String>Volutpat urna commodo sapien cras</System:String>
+						<System:String>Sem conubia dolor venenatis</System:String>
+					</Model:VolumeInfo.Authors>
+					<Model:VolumeInfo.Categories>
+						<System:String>Eleifend eget habitasse vestibulum tempus</System:String>
+						<System:String>Posuere lacus facilisi vestibulum tortor</System:String>
+						<System:String>Turpis hendrerit</System:String>
+						<System:String>Elit lorem potenti himenaeos</System:String>
+						<System:String>Adipiscing dis</System:String>
+					</Model:VolumeInfo.Categories>
+					<Model:VolumeInfo.ImageLinks>
+						<Model:ImageLinks SmallThumbnail="Massa varius hac" Thumbnail="Pretium enim adipiscing leo malesuada"/>
+					</Model:VolumeInfo.ImageLinks>
+					<Model:VolumeInfo.IndustryIdentifiers>
+						<Model:IndustryIdentifier Identifier="Duis taciti praesent accumsan nam" Type="Felis phasellus parturient"/>
+						<Model:IndustryIdentifier Identifier="Bibendum amet tellus" Type="Ipsum dapibus vestibulum nunc"/>
+						<Model:IndustryIdentifier Identifier="Euismod feugiat justo" Type="Sed egestas"/>
+						<Model:IndustryIdentifier Identifier="Gravida dictumst dignissim adipiscing parturient" Type="Consequat tempor vestibulum convallis ante"/>
+						<Model:IndustryIdentifier Identifier="Arcu diam natoque" Type="Elementum iaculis facilisis lacinia laoreet"/>
+					</Model:VolumeInfo.IndustryIdentifiers>
+					<Model:VolumeInfo.ReadingModes>
+						<Model:ReadingModes Image="False" Text="True"/>
+					</Model:VolumeInfo.ReadingModes>
+				</Model:VolumeInfo>
+			</Model:BookSearchItem.VolumeInfo>
+		</Model:BookSearchItem>
+		<Model:BookSearchItem Etag="Vestibulum aliquam" Id="Adipiscing parturient" Kind="Ultricies porta" SelfLink="Purus sagittis cursus">
+			<Model:BookSearchItem.AccessInfo>
+				<Model:AccessInfo AccessViewStatus="Porttitor parturient morbi vestibulum" Country="Sed imperdiet integer sapien" Embeddable="False" PublicDomain="True" QuoteSharingAllowed="False" TextToSpeechPermission="Diam dis" Viewability="Malesuada arcu" WebReaderLink="Semper nascetur penatibus">
+					<Model:AccessInfo.Epub>
+						<Model:Epub IsAvailable="False"/>
+					</Model:AccessInfo.Epub>
+					<Model:AccessInfo.Pdf>
+						<Model:Pdf IsAvailable="True"/>
+					</Model:AccessInfo.Pdf>
+				</Model:AccessInfo>
+			</Model:BookSearchItem.AccessInfo>
+			<Model:BookSearchItem.SaleInfo>
+				<Model:SaleInfo BuyLink="Metus interdum lobortis adipiscing ante" Country="Habitant pretium rhoncus" IsEbook="True" Saleability="Sodales vestibulum lacus viverra lorem">
+					<Model:SaleInfo.ListPrice>
+						<Model:ListPrice Amount="666.51" CurrencyCode="Hendrerit magna"/>
+					</Model:SaleInfo.ListPrice>
+					<Model:SaleInfo.Offers>
+						<Model:Offer FinskyOfferType="45"/>
+						<Model:Offer FinskyOfferType="20"/>
+						<Model:Offer FinskyOfferType="40"/>
+						<Model:Offer FinskyOfferType="91"/>
+						<Model:Offer FinskyOfferType="13"/>
+					</Model:SaleInfo.Offers>
+					<Model:SaleInfo.RetailPrice>
+						<Model:RetailPrice Amount="861.85" CurrencyCode="Himenaeos inceptos aliquam massa"/>
+					</Model:SaleInfo.RetailPrice>
+				</Model:SaleInfo>
+			</Model:BookSearchItem.SaleInfo>
+			<Model:BookSearchItem.SearchInfo>
+				<Model:SearchInfo TextSnippet="Est quisque vestibulum"/>
+			</Model:BookSearchItem.SearchInfo>
+			<Model:BookSearchItem.VolumeInfo>
+				<Model:VolumeInfo AllowAnonLogging="False" ContentVersion="Bibendum mollis" CanonicalVolumeLink="Potenti vestibulum justo facilisi faucibus" Description="Torquent ultrices odio sed" InfoLink="Adipiscing primis rutrum parturient posuere" Language="Natoque fringilla nostra ornare nunc" MaturityRating="Sem dolor facilisis fermentum sit" PageCount="12" Publisher="Sociosqu libero blandit" PublishedDate="Suscipit nam class curae donec" PreviewLink="Amet habitasse platea nam" PrintType="Vestibulum dignissim praesent adipiscing" Title="Dictum vestibulum venenatis">
+					<Model:VolumeInfo.Authors>
+						<System:String>Nisi adipiscing parturient nisl</System:String>
+						<System:String>Vestibulum senectus</System:String>
+						<System:String>Nunc aliquet</System:String>
+						<System:String>Risus lectus</System:String>
+						<System:String>Velit vitae vulputate</System:String>
+					</Model:VolumeInfo.Authors>
+					<Model:VolumeInfo.Categories>
+						<System:String>Proin mattis accumsan euismod elementum</System:String>
+						<System:String>Parturient feugiat</System:String>
+						<System:String>Urna vestibulum non gravida per</System:String>
+						<System:String>Sed augue cras</System:String>
+						<System:String>Iaculis mauris lacinia duis</System:String>
+					</Model:VolumeInfo.Categories>
+					<Model:VolumeInfo.ImageLinks>
+						<Model:ImageLinks SmallThumbnail="Fames felis montes dictumst ipsum" Thumbnail="Vestibulum laoreet eleifend vel"/>
+					</Model:VolumeInfo.ImageLinks>
+					<Model:VolumeInfo.IndustryIdentifiers>
+						<Model:IndustryIdentifier Identifier="Fusce orci vestibulum vehicula" Type="Commodo curabitur etiam phasellus"/>
+						<Model:IndustryIdentifier Identifier="Est quam consequat lorem" Type="Pede adipiscing conubia dis ligula"/>
+						<Model:IndustryIdentifier Identifier="Quis leo convallis" Type="Volutpat morbi parturient cubilia hac"/>
+						<Model:IndustryIdentifier Identifier="Mus dapibus egestas luctus" Type="Vestibulum litora"/>
+						<Model:IndustryIdentifier Identifier="Nec magnis" Type="Nulla maecenas"/>
+					</Model:VolumeInfo.IndustryIdentifiers>
+					<Model:VolumeInfo.ReadingModes>
+						<Model:ReadingModes Image="True" Text="False"/>
+					</Model:VolumeInfo.ReadingModes>
+				</Model:VolumeInfo>
+			</Model:BookSearchItem.VolumeInfo>
+		</Model:BookSearchItem>
+	</ViewModels:FirstViewModel.Results>
+	<ViewModels:FirstViewModel.RequestedBy>
+		<ViewModels1:MvxRequestedBy AdditionalInfo="Neque vivamus hac pharetra adipiscing" Type="Other"/>
+	</ViewModels:FirstViewModel.RequestedBy>
+</ViewModels:FirstViewModel>
