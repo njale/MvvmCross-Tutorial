@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using Day06.Core.Model;
 using Day06.Core.Services;
-using MvvmCross.Binding.Bindings;
 using MvvmCross.Core.ViewModels;
 
 namespace Day06.Core.ViewModels
