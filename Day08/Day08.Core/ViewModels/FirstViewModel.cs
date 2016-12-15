@@ -9,7 +9,8 @@ namespace Day08.Core.ViewModels
         public FirstViewModel(IMvxLocationWatcher locationWatcher)
         {
             LocationWatcher = locationWatcher;
-            LocationWatcher.Start(new MvxLocationOptions(), OnLocation, OnError);
+            var options = new MvxLocationOptions {TrackingMode = MvxLocationTrackingMode.Foreground};
+            LocationWatcher.Start(options, OnLocation, OnError);
         }
 
         public readonly IMvxLocationWatcher LocationWatcher;
