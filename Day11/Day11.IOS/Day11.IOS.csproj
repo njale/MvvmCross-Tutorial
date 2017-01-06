@@ -92,7 +92,6 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="Views\FirstView.cs" />
-    <Compile Include="Views\FlowRouletteLayout.cs" />
     <Compile Include="Views\KittenCell.cs" />
     <Compile Include="Views\KittenCell.designer.cs">
       <DependentUpon>KittenCell.cs</DependentUpon>
@@ -101,7 +100,6 @@
     <Compile Include="Views\KittenCollectionCell.designer.cs">
       <DependentUpon>KittenCollectionCell.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Maths.cs" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
