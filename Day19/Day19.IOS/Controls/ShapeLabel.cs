@@ -1,12 +1,14 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Drawing;
+using Day19.Core.Model;
 using Day19.Core.ViewModels;
 using Foundation;
 using UIKit;
 
 namespace Day19.IOS.Controls
 {
-    [Register("ShapeLabel")]
+    [Register("ShapeLabel"), DesignTimeVisible(true)]
     public class ShapeLabel : UILabel
     {
         private Shape _theShape;
@@ -26,17 +28,18 @@ namespace Day19.IOS.Controls
 
         }
 
+        // [Export("Test"), Browsable(true)]
         public Shape TheShape
         {
             get { return _theShape; }
             set
             {
                 _theShape = value;
-                UpdateUI();
+                UpdateGui();
             }
         }
-
-        private void UpdateUI()
+        
+        private void UpdateGui()
         {
             Text = TheShape.ToString();
 
@@ -55,5 +58,6 @@ namespace Day19.IOS.Controls
                     throw new ArgumentOutOfRangeException();
             }
         }
+        
     }
 }

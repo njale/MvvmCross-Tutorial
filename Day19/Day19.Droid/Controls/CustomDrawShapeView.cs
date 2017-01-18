@@ -4,6 +4,7 @@ using Android.Graphics;
 using Android.Runtime;
 using Android.Util;
 using Android.Views;
+using Day19.Core.Model;
 using Day19.Core.ViewModels;
 using Color = Android.Graphics.Color;
 

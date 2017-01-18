@@ -4,6 +4,7 @@ using Android.Graphics;
 using Android.Runtime;
 using Android.Util;
 using Android.Widget;
+using Day19.Core.Model;
 using Day19.Core.ViewModels;
 
 namespace Day19.Droid.Controls

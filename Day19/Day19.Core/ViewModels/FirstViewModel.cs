@@ -1,11 +1,9 @@
 using System.Collections.Generic;
+using Day19.Core.Model;
 using MvvmCross.Core.ViewModels;
 
 namespace Day19.Core.ViewModels
 {
-    public enum Shape { Circle, Square, Triangle }
-
-
     public class FirstViewModel : MvxViewModel
     {
         private Shape _shape;

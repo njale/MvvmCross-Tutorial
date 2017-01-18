@@ -24,12 +24,15 @@ namespace Day19.IOS.Views
 
             var set = this.CreateBindingSet<FirstView, FirstViewModel>();
             set.Bind(Label).To(vm => vm.Shape);
+            set.Bind(ShapeLabel).For(s => s.TheShape).To(vm => vm.Shape);
             set.Bind(TextField).To(vm => vm.Shape);
+            set.Bind(ShapeView).For(s => s.TheShape).To(vm => vm.Shape);
             set.Bind(pickerViewModel).For(p => p.ItemsSource).To(vm => vm.List);
             set.Bind(pickerViewModel).For(p => p.SelectedItem).To(vm => vm.Shape);
             set.Apply();
 
-
+            var gestureRecognizer = new UITapGestureRecognizer(() => TextField.ResignFirstResponder());
+            View.AddGestureRecognizer(gestureRecognizer);
         }
     }
 }

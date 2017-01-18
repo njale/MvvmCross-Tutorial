@@ -1,4 +1,4 @@
-// WARNING
+﻿// WARNING
 //
 // This file has been generated automatically by Xamarin Studio from the outlets and
 // actions declared in your storyboard file.
@@ -16,11 +16,19 @@ namespace Day19.IOS.Views
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UILabel Label { get; set; }
+        UIKit.UILabel Label { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UITextField TextField { get; set; }
+        Day19.IOS.Controls.ShapeLabel ShapeLabel { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        Day19.IOS.Controls.ShapeView ShapeView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField TextField { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
@@ -28,6 +36,17 @@ namespace Day19.IOS.Views
                 Label.Dispose ();
                 Label = null;
             }
+
+            if (ShapeLabel != null) {
+                ShapeLabel.Dispose ();
+                ShapeLabel = null;
+            }
+
+            if (ShapeView != null) {
+                ShapeView.Dispose ();
+                ShapeView = null;
+            }
+
             if (TextField != null) {
                 TextField.Dispose ();
                 TextField = null;
